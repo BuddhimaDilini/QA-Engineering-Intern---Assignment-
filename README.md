@@ -1,6 +1,6 @@
 # Safora Contact Form Automation Test
 
-This project contains a simple automation test script for the Safora Contact Us form using Selenium and Python.
+Uploaded codes contains a simple automation test script for the Safora web page Contact Us form using Selenium and Python.
 
 ## Features
 
@@ -14,7 +14,7 @@ This project contains a simple automation test script for the Safora Contact Us 
 
 - Python
 - Selenium
-- Firefox WebDriver (GeckoDriver)
+- Firefox for browser
 
 ## Installation
 
@@ -23,10 +23,6 @@ Install Selenium:
 ```bash
 pip install selenium
 ```
-
-Download GeckoDriver:
-- https://github.com/mozilla/geckodriver/releases
-
 ## Run the Test
 
 ```bash
@@ -45,10 +41,7 @@ python test.py
 ```text
 project/
 │
-├── test.py
+├── submit_with_valid_inputs.py
+├── submit_without_inputs.py
 └── README.md
 ```
-
-## Author
-
-Manitha Sendiv
